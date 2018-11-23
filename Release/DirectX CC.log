@@ -1,0 +1,11 @@
+﻿  DirectXCCApplication.cpp
+  Entry.cpp
+  Events.cpp
+  UiAnimation.cpp
+  UiDrawing.cpp
+  UiLogic.cpp
+  UiRenderer.cpp
+  Generating code
+  All 234 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DirectX CC.vcxproj -> C:\Users\Shan0x\source\repos\DirectX CC\Release\DirectX CC.exe

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DirectXCC">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DirectXCC\Core">
+      <UniqueIdentifier>{451e0027-3b2b-4323-955e-709a85934ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectXCC\Events">
+      <UniqueIdentifier>{4fda3a9f-35a5-40ee-a7fd-1f57ec38ea87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectXCC\Graphics">
+      <UniqueIdentifier>{a6b13166-c047-42fb-856a-f365e7f42058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectXCC\Animation">
+      <UniqueIdentifier>{f08ba546-97e3-48e7-90c0-b34ae827a00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectXCC\Animation\Core">
+      <UniqueIdentifier>{d1235850-2174-4cf5-bf3b-f0f5fd883329}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectXCCApplication.h">
+      <Filter>DirectXCC\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="APICore.h">
+      <Filter>DirectXCC</Filter>
+    </ClInclude>
+    <ClInclude Include="UiRenderer.h">
+      <Filter>DirectXCC\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAnimationHelper.h">
+      <Filter>DirectXCC\Animation\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerEventHandler.h">
+      <Filter>DirectXCC\Animation\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectXCCApplication.cpp">
+      <Filter>DirectXCC\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp">
+      <Filter>DirectXCC</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>DirectXCC\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="UiRenderer.cpp">
+      <Filter>DirectXCC\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="UiDrawing.cpp">
+      <Filter>DirectXCC\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="UiLogic.cpp">
+      <Filter>DirectXCC\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="UiAnimation.cpp">
+      <Filter>DirectXCC\Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
